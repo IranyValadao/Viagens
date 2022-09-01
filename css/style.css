@@ -1,0 +1,226 @@
+
+
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body { /*pag de fundo*/
+    background: #999999;
+    color: #474747;
+    font-family: arial;
+    font-size: 10pt;
+    line-height: 15pt;
+}
+
+a { /*cor texto*/
+    color: #63cad8;
+    text-decoration: none;
+}
+
+a:hover { /*muda a cor do texto qdo passa o cursor*/
+    color: #DA251D;
+    text-decoration: none;
+}
+
+a.button {
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #63cad8;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    width: 100%;
+    background: black;
+    margin-bottom: 30px;
+    height: 130px;
+}
+
+.wrap-header {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#logo {
+    padding: 5px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.menu {
+    height: 37px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+    padding: 6px 0px 0px 0px;
+    background: black;
+    height: 100px;
+    width: 90px;
+    text-align: center;
+}
+
+.menu ul li:hover {
+    background-color: #DA251D;
+}
+
+.menu ul li a { /*letras*/
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    display: block;
+    padding: 6px 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#content {  /*lado esquerdo*/
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#main-content {  /*lado direito*/
+    width: 70%;
+    float: left;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#main-content article .info { /*By Admin on May 01, 2020 */
+    font-style: italic;
+    color: #ccc;
+}
+
+#main-content .box {
+    text-align: justify;    
+}
+
+#main-content article {
+    float: left;
+    width: 50%;
+    margin: 10px 0px;
+    border-bottom: 1px double #000; /*linha embaixo do botao das imagens*/
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-content article img { /*borda da imagem*/
+    float: left;
+    margin: 0px 10px 10px 0;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+#sidebar {  /*lado esquerdo da pag = "quem somos"*/
+    width: 30%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#sidebar .heading { /*linha q separa "quem somos" e "post"*/
+    padding: 5px;
+    border-bottom: 3px double #333333;
+}
+
+#sidebar .heading h2 {
+    font-size: 22px;
+    font-weight: normal;
+    padding: 0 10px;
+}
+
+#sidebar .content {
+    padding: 15px;
+    text-align: justify;
+}
+
+#sidebar .content ul li {
+    border-bottom: 1px solid #E1E1E1;
+    padding: 5px;
+}
+
+#sidebar .content .post h4 {
+    font-weight: normal;
+}
+
+#sidebar .content .post img { /*borda da img post*/
+    float: left;
+    padding: 5px;
+    border: 1px solid #CCC;
+    margin-right: 10px;
+}
+
+#sidebar .content .post p { /*texto may 01,2022*/
+    color: #A3A3A3;
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    margin-top: 30px;
+    clear: both;
+}
+
+.box_footer {
+    float: left;
+    width: 33%;
+    color: #fff;
+    text-align: justify;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.row_footer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer .heading {
+    padding: 5px;
+    border-bottom: 3px double #ffffff;
+}
+
+footer .heading h2 {
+    font-size: 22px;
+    font-weight: normal;
+    padding: 0 10px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    background: #000;
+    padding: 10px 0px;
+    color: #ffffff;
+}
+
+
+
